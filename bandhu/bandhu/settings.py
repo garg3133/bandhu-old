@@ -25,7 +25,7 @@ SECRET_KEY = 'rlkj(b+0n7jn$68z#x@*o&n!=tl+n51!0yz#ia3m9cl#4k^v!!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bandhuapp.herokuapp.com']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -121,7 +122,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(PROJECT_ROOT, "static"),
     '/',
 ]
 STATIC_ROOT = os.path.join(PROJECT_ROOT,'static'),
