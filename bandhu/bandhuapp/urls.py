@@ -10,8 +10,3 @@ urlpatterns = [
     path('cause4/', views.cause4, name="cause4"),
     path('cause5/', views.cause5, name="cause5"),
 ]
-
-# if not settings.DEBUG:
-#     urlpatterns += patterns('',
-#         (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-#     )
