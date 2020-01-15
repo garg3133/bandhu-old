@@ -1,67 +1,6 @@
-/*------------------------------------------------------------------- /
 
-Theme Name: Heal 
-Theme URI: http://codexcoder.com/
-Author: CodexCoder
-Author URI: http://codexcoder.com/
-Description: Heal is a one page html template
-Version: 1.0.2
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: html, themplate, ccr, Heal
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900);
 
---------------------------------------------------------------------- */
-/* Table of contents
----------------------------------------------------------------------- /
-*
-*  1 - Import Google Font
-*  2 - Global Styles
-*    2.1 - Section Angle
-*    2.2 - Section Title and Description
-*    2.3 - Social Buttons
-*    2.4 - Buttons
-*    2.5 - Parallax 
-*    2.6 - Owl Slider
-*    2.7 - Hexagon
-*    2.8 - Content Title and Icon 
-*  3 - Main Menu
-*  4 - Top Section
-*  5 - About Us Section
-*  6 - Team Section
-*  7 - Volunteer Section
-*  8 - Next Event Section
-*  9 - Service Section
-*  10 - Pricing Section
-*     10.1 - Hover Effects
-*  11 - Testimonial Section
-*  12 - Gallery Section
-*  13 - Causes Section 
-*  14 - Twitter Section
-*  15 - News Section
-*  16 - Upcoming Events Section
-*  17 - Clients Section
-*  18 - Contact Section
-*      18.1 - Email Validator
-*  19 - Google Map 
-*  20 - Blog Page
-*      20.1 - Slider
-*      20.2 - Post Blockquote
-*      20.3 - Attachment Link
-*      20.4 - Comment Section
-*      20.5 - Blog Sidebar
-*  21 - Blog Single Page
-*      21.1 - Pagination
-*  22 - Footer Section
-*  23 - Scroll to Top
-*  24 - Element Appear Effect
-*
----------------------------------------------------------------------- */
-/* 1 - Import Google Font
-------------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900); /* Google Font End 
-------------------------------------------------------------------------*/
-/* 2 - Global Styles
----------------------------------------------------------------------- */
 html, body {
     font-family: 'Raleway', sans-serif;
     color: #737373;
