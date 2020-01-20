@@ -212,7 +212,7 @@ time {
 ---------------------------------------------*/
 .section-head {
     margin-top: 0px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 .section-title {
@@ -238,6 +238,34 @@ time {
     content: "";
     top: 6px;
     right: 0px;
+    margin-left: 0px;
+}
+
+.section-title-initiatives {
+    color: #0d0d0d;
+    font-size: 3.4375em;
+    font-weight: 900;
+    line-height: 54px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 320px;
+    float: left;
+    margin: 0;
+    /* padding-right: 35px; */
+    margin-right: 40px;
+    position: relative;
+    top: -15px;
+    -webkit-text-stroke: 0.3px;
+}
+
+.section-title-initiatives:after {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #32c766;
+    content: "";
+    top: 0px;
+    right: -30px;
     margin-left: 0px;
 }
 
@@ -799,7 +827,7 @@ a.donate:hover {
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    padding: 200px 0 300px 0;
+    padding: 160px 0 80px 0;
     width: 100%;
     overflow: hidden;
 }
@@ -1020,9 +1048,52 @@ a.donate:hover {
 
 /* 6 - Team Section End 
 ------------------------------------------------------------------------*/
-/* 7 - Volunteer Section
+.content-box{
+    text-align: justify;
+}
+
+/* 7 - Recent Activities Section
 ------------------------------------------------------------------------*/
-/* 7 - Volunteer Section End 
+.recent-activities-title {
+    /* color: #ffffff; */
+    /* text-align: center; */
+}
+
+.recent-activities-title {
+    /* font-size: 1.625em;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 45px; */
+
+    color: #0d0d0d;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    /* width: 320px; */
+    /* float: left; */
+    /* margin: 0; */
+    /* padding-right: 35px; */
+    /* margin-right: 40px; */
+    position: relative;
+    top: -15px;
+    -webkit-text-stroke: 0.3px;
+}
+
+.recent-activities-title:after {
+    content: "";
+    background-color: #32c766;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    height: 4px;
+    width: 50px;
+}
+
+/* 7 - Recent Activities Section End 
 ------------------------------------------------------------------------*/
 /* 8 - Next Event Section
 ------------------------------------------------------------------------*/
