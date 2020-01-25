@@ -951,11 +951,13 @@ a.donate:hover {
 .initiatives-overlay > div {
     width: 20%;
     margin: 0 15px;
-    cursor: pointer;
 }
 
-.initiatives-overlay > div:hover {
-    transform: translateY(-20px);
+.initiatives-overlay > div > div:hover {
+    /* transform: translateY(-70px); */
+    /* padding-bottom: 70px; */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* 7 - Recent Activities Section
@@ -979,7 +981,7 @@ a.donate:hover {
     /* padding-right: 35px; */
     /* margin-right: 40px; */
     position: relative;
-    top: -15px;
+    /* top: -15px; */
     -webkit-text-stroke: 0.3px;
 }
 
